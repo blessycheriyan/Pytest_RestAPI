@@ -1,0 +1,15 @@
+
+// Each test can able to see (Detailed)
+python -m pytest -v
+
+//another method
+pytest
+
+// we need to print statement too in junit itself
+python -m pytest -v -s
+
+
+//One junit function needs to run
+
+ python -m pytest -v -s .\test_todo_api.py::test_can_list_users
+
